@@ -1,0 +1,12 @@
+cookie tracking with analytic
+first connect yor website to google tag manager thene make 2 tag (persis campain and coockie html below code) and 1 Variable Go ahead according to the video
+
+coockie html tag in GTM
+<script>
+(function () {
+  var value = ""         //fill with variable which information should be written into the field
+  var selector = ""     //fill with CSS Selector that identifies the form field
+  var field = document.querySelector(selector)
+  if(field){ field.value = value; }
+})();
+</script>
